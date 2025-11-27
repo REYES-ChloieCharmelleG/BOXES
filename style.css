@@ -1,0 +1,42 @@
+  .grid-container {
+        display: grid;
+        grid-template-columns: 100px 200px 200px;
+        grid-template-rows: 100px 200px 100px 100px;
+        gap: 5px;
+      }
+      .one {
+        background-color: blue;
+      }
+      .box {
+        background-color: blue;
+      }
+      .box1 {
+        display: flex;
+        background-color: blue;
+        grid-column: span 2;
+        justify-content: center;
+        align-items: center;
+      }
+      .box2 {
+        grid-row: span 4;
+        background-color: blue;
+      }
+      .box3 {
+        background-color: blue;
+      }
+      .box4 {
+        background-color: blue;
+      }
+      .flex-container {
+        display: grid;
+        grid-template-columns: 150px 90px 90px;
+        height: 100px;
+        gap: 3px;
+        justify-content: center;
+        grid-auto-flow: column;
+      }
+      .card {
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+      }
